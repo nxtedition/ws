@@ -270,6 +270,9 @@ This class represents a WebSocket. It extends the `EventEmitter`.
 - `options` {Object}
   - `followRedirects` {Boolean} Whether or not to follow redirects. Defaults to
     `false`.
+  - `generateMask` {Function} The function used to generate the masking key. It
+    takes a `Buffer` that must be filled synchronously. By default the buffer is
+    filled with cryptographically strong random bytes.
   - `handshakeTimeout` {Number} Timeout in milliseconds for the handshake
     request. This is reset after every redirection.
   - `maxPayload` {Number} The maximum allowed message size in bytes.
