@@ -1,6 +1,6 @@
 {
   "name": "@nxtedition/ws",
-  "version": "8.3.6",
+  "version": "8.3.7",
   "description": "Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js",
   "keywords": [
     "HyBi",
